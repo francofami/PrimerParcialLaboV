@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".EditarActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/nombreProductoEditar"
+            android:textAppearance="@style/TextAppearance.AppCompat.Medium"
+            android:layout_gravity="center"/>
+
+        <EditText
+            android:id="@+id/editarNombre"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="@style/TextAppearance.AppCompat.Large"
+            android:text=""
+            android:inputType="text"
+            android:layout_gravity="center" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/cantidadEditar"
+                android:textAppearance="@style/TextAppearance.AppCompat.Medium"
+                android:layout_gravity="left"
+                android:layout_marginLeft="10dp"/>
+
+            <EditText
+                android:id="@+id/editarCantidad"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textAppearance="@style/TextAppearance.AppCompat.Large"
+                android:text=""
+                android:inputType="text"
+                android:layout_gravity="left"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/precioEditar"
+                android:textAppearance="@style/TextAppearance.AppCompat.Medium"
+                android:layout_gravity="right"
+                android:layout_marginLeft="30dp"/>
+
+            <EditText
+                android:id="@+id/editarPrecio"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textAppearance="@style/TextAppearance.AppCompat.Large"
+                android:text=""
+                android:inputType="text"
+                android:layout_gravity="left" />
+
+        </LinearLayout>
+
+        <Button
+            android:id="@+id/botonEditar"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_vertical|center_horizontal"
+            android:text="@string/editarEditar"
+            android:textColor="@android:color/black"
+            app:backgroundTint="#777676"/>
+
+    </LinearLayout>
+
+
+
+</LinearLayout>

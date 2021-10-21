@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Products</string>
+    <string name="nombreProductoEditar">Product name</string>
+    <string name="cantidadEditar">Quantity</string>
+    <string name="precioEditar">Price</string>
+    <string name="editarEditar">Edit</string>
+    <string name="cantidad">Quantity: </string>
+    <string name="precio">Price by unit: </string>
+    <string name="menuEditar">Modify</string>
+</resources>

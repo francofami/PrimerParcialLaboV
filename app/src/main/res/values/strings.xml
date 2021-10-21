@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">Productos</string>
+    <string name="nombreProductoEditar">Nombre del producto</string>
+    <string name="cantidadEditar">Cantidad</string>
+    <string name="precioEditar">Precio</string>
+    <string name="editarEditar">Editar</string>
+    <string name="cantidad">Cantidad: </string>
+    <string name="precio">Precio unidad: </string>
+    <string name="menuEditar">Modificar</string>
+</resources>
